@@ -1,0 +1,33 @@
+.footer{
+	background: #00795f;
+	color: white;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	height: 15rem;
+	width: 100%!important;
+}
+
+.more{
+	line-height: 0.3rem;
+	color:black;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%!important;
+	text-align: center;
+	font-size: 0.8em;
+	height: 50px;
+	margin-top: 2rem;
+	margin-right: 100px;
+}
+
+.more p{
+	margin-top: 2rem;
+}
+
+.more p li{
+	display: inline-block;
+	margin-left: 0px;
+	overflow: inherit;
+}

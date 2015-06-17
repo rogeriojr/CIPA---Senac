@@ -1,0 +1,163 @@
+.conteudo{
+	display: block;
+	position: absolute;
+	left: 25%;
+	top: 8rem;
+	width: 50%;
+	height: 35%;
+	padding: 5px 5px 5px 5px;
+	float: left;
+	background: #000 transparent;
+	background: rgba(0,0,0,0.7);
+	position: relative;
+}
+
+.conteudo .leave{
+	margin-top: 1rem;
+}
+
+.groul{
+	text-align: center;
+
+}
+
+.slider{
+	padding-top: 40px;
+}
+
+.black{
+	color: #000;
+	text-align: center;
+}
+
+.leave{
+	color: #fff;
+}
+
+.uncolor{
+	color: #ccc;
+}
+
+.tittle{
+	font-size: 2.5rem;
+}
+
+.img-radius{
+	border-radius: 50%;
+	margin-left: 8em;
+}
+
+/*SECTION*/
+.section{
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+/*COLUNAS*/
+.col{
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child{
+	margin-left: 0;
+}
+
+.group:before,
+.group:after{
+	content: "";
+	display: table;
+}
+
+.group:after{
+	clear: both;
+}
+
+/*GRIDS*/
+.span_12{
+	width: 100%;
+}
+
+.span_11{
+	width: 91.53%;
+}
+
+.span_10{
+	width: 83.06%;
+}
+
+.span_9{
+	width: 74.6%;
+}
+
+.span_8{
+	width: 66.13%;
+}
+
+.span_7{
+	width: 57.66%;
+}
+
+.span_6{
+	width: 49.2%;
+}
+
+.span_5{
+	width: 40.73%;
+}
+
+.span_4{
+	width: 32.26%;
+}
+
+.span_3{
+	width: 23.8%;
+}
+
+.span_2{
+	width: 15.33%;
+}
+
+.span_1{
+	width: 6.866%;
+}
+
+/*MEDIAQUERY*/
+@media only screen and (max-width: 480px) {
+	.col{
+		margin: 1% 0 1% 0;
+	}
+
+	.img-radius{
+		margin-left: 1.6em;
+	}
+
+	.black{
+		margin-left: 1.2em;
+	}
+	.span_1, .span_2, .span_3, .span_4, .span_5, .span_6, .span_7, .span_8, .span_9, .span_10, .span_11, .span_12 {
+	width: 100%; 
+	}
+}
+
+.back{
+	margin-top: 2rem;
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 0.8rem;
+	-moz-border-radius: 0.8rem;
+	-ms-border-radius: 0.8rem;
+	-o-border-radius: 0.8rem;
+	border-radius: 0.8rem;
+	-webkit-box-shadow: inset 0 1px 1px rgba (0,0,0,0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba (0,0,0,0.05);
+	-ms-box-shadow: inset 0 1px 1px rgba (0,0,0,0.05);
+	-o-box-shadow: inset 0 1px 1px rgba (0,0,0,0.05);
+	box-shadow: inset 0 1px 1px rgba (0,0,0,0.05);
+}
+

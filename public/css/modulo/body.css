@@ -1,0 +1,39 @@
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font: 1.0em "Lucida Grande",Helvetica, Arial, Sans-serif;
+	background-color: #fff;
+}
+
+section{
+	line-height: 1.9em;
+	font-size: 0.9em;
+	padding: 40px;
+	width: 75%;
+	margin: 0 auto;
+}
+
+header{
+	background-image: url('/img/back.jpg');
+	width: 100%!important;
+	padding: 40px 0 40px 0;
+	height: 450px;
+	text-align: center;
+
+}
+
+hr{
+	height: 0;
+	margin-left: 3.5em;
+	margin-right: 3.5em;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+   box-sizing: content-box;
+
+
+}
